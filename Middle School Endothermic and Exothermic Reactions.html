@@ -1,0 +1,181 @@
+<html>
+<head>
+  <title>Endothermic and Exothermic Reactions</title>
+</head>
+  <link rel="stylesheet" href="css/homepage.css">
+  <meta charset="utf-8">
+  <style>
+  body  {
+  background-image: url("background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@600&family=IM+Fell+DW+Pica:ital@0;1&family=Martian+Mono:wght@700&display=swap');
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #495d40;
+    font-family: 'IM Fell DW Pica', serif;
+;
+  }
+  h6 {
+    margin: 0;
+    padding: 14px 16px;
+    overflow: hidden;
+    background-color: #495d40;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 18px;
+    color: white;
+  }
+  li {
+    float: left;
+  }
+  li a, .drop {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:18px;
+  }
+  li a:hover, .dropdown:hover .drop {
+    background-color: #9fb097;
+  }
+  li.dropdown {
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size:15px;
+  }
+  .dropdown-content a:hover {background-color: #bcc8b6;}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  h1 {
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 50px;
+    color: #030303;
+  }
+  h2 {
+    font-family: 'Martian Mono', monospace;
+    font-size: 40px;
+    color: #030303;
+  }
+  h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #030303;
+  }
+  h5 {
+    color: #030303;
+  }
+  p {
+    font-family: 'IM Fell DW Pica', serif;
+  }
+  .column1 {
+    flex: 25%;
+    padding: 5px;
+  }
+  .column2 {
+    flex: 100%;
+    padding: 5px;
+  }
+  .rows {
+    display: flex;
+  }
+  .container1 {
+    position: relative;
+    width: 75%;
+    border-radius: 50px;
+  }
+  .container2 {
+    position: relative;
+    width: 19%;
+    border-radius: 50px;
+  }
+  .container1:hover .overlay {
+    opacity: 1;
+  }
+  .container2:hover .overlay {
+    opacity: 1;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .2s ease;
+    border-radius: 50px;
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+  }
+  .fade {
+    animation: fadeIn 1s;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .imgcontent{
+  max-width: 100%;
+    min-width: 300px;
+    height: auto;
+  }
+</style>
+<body background="background.png" alink="#1a6e20" link="#474747" vlink="#474747">
+  <body alink="#7da180" link="#1a6e20" vlink="#1a6e20">
+    <ul>
+      <li><img src="novledgestraight.png" width="200px" height="45px" id=logo alt="Logo image" style="margin-left: 10px;"/></li>
+    <li><a href="index.html">Home</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="drop">Notes</a>
+      <div class="dropdown-content">
+        <a href="midschoolnotes.html">Middle School</a>
+        <a href="igcsenotes.html">IGCSE</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="drop">Practices</a>
+      <div class="dropdown-content">
+        <a href="midschoolprac.html">Middle School</a>
+        <a href="igcseprac.html">IGCSE</a>
+      </div>
+  </ul>
+  <div class="fade">
+<br>
+<center>
+<img class="imgcontent" src="chem8x1.jpg"></img>
+<br><br>
+<img class="imgcontent" src="chem8x2.jpg"></img>
+<br><br>
+<img class="imgcontent" src="chem8x3.jpg"></img>
+<br><br>
+<img class="imgcontent" src="chem8x4.jpg"></img>
+<br><br>
+<h6><center>© novledge. 2023 All Rights Reserved.</center></h6>
+</body>
+</html>
